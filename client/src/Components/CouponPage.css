@@ -1,0 +1,85 @@
+.coupon-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .coupon-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .coupon-icon {
+    width: 30px; /* Adjust icon width */
+    height: 30px; /* Adjust icon height */
+    /* margin-top: 10px; */
+   /* Add spacing between icon and button */
+  }
+  .coupon-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .coupon-price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .coupon-icon {
+    width: 20px; /* Adjust icon width */
+    height: 20px; /* Adjust icon height */
+    margin-right: 5px; /* Add spacing between icon and price */
+    }  
+  .coupon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .coupon {
+    border: 1px solid #b0e0e6;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%; /* Set border-radius to 5% */
+    background-color: #f9f9f9;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    width: 250px;
+  }
+  
+  .coupon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coupon-image {
+    width: 100%; /* Make the image fill the card */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    border-radius: 5%; /* Set border-radius to 5% */
+  }
+  
+  .coupon-button {
+    background-color: #4062ff;
+    color: white;
+    border: none;
+    padding: 8px 15px; /* Adjust padding */
+    border-radius: 10px; /* Adjust border-radius */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Make the button width 100% */
+    text-align: center;
+
+  }
+ 
+  
+  
+  .coupon-button:hover {
+    background-color: #334db8;
+  }
+  

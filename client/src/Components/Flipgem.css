@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.box{
+    overflow: hidden;
+    width: 40%;
+    height: 90vh;
+    border: 2px solid black;
+
+}
+
+.header{
+    font-size: large;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.activity{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 15rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    background-color: #f3f3f5;
+    font-weight: bolder;
+    font-size: 14px;
+}
